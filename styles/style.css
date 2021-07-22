@@ -8,11 +8,11 @@
 
 html,
 body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
 }
 
 button {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* Navigation */
@@ -31,13 +31,30 @@ button {
   color: #292b2c;
   font-weight: 600;
   text-transform: uppercase;
+  padding: 0.5rem;
 
   /* Challenge: can you make the navigation links orange on hover? */
 }
 
 /* Buttons */
 
-/* INSERT BUTTON STYLES HERE */
+button {
+  background-color: #c05326;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+button:hover,
+button:focus {
+  background-color: #934423;
+}
+
+.volunteer-button {
+  background-color: #fff;
+  color: #c05326;
+}
 
 /* Alert */
 
@@ -55,7 +72,7 @@ button {
 }
 
 .alert:before {
-  content: "";
+  content: '';
   position: absolute;
   left: -1px;
   top: 0;
@@ -67,7 +84,7 @@ button {
 /* Jumbotron */
 
 .jumbotron {
-  background-image: url("../images/header.jpg");
+  background-image: url('../images/header.jpg');
   border-radius: 0;
   color: #fff;
 }
@@ -85,7 +102,7 @@ button {
 }
 
 .heading-underline:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -1px;
   left: 0;
